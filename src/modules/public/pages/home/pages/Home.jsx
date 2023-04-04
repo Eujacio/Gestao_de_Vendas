@@ -53,7 +53,7 @@ export const Home = () => {
           setListaDeProdutos(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
         };
         getProduto();
-        
+        // testando
       },[]);
 
       //   async function deleteProduto(id){
