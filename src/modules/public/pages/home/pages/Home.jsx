@@ -14,7 +14,6 @@ import { getFirestore,
 
   } from "firebase/firestore";
 import { useEffect, useState } from "react";
-
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
 import TableCell from '@mui/material/TableCell';
@@ -60,7 +59,7 @@ export const Home = () => {
       //   const produtoDoc = doc(db, 'listaDeProdutos', id);
       //   await deleteDoc(produtoDoc);
       // } 
-
+      // teste
       // var nome = ['Leticia', 'Beatriz', 'Ana']
       // const listaOrdenada = nome.sort(Intl.Collator().compare)
       async function selecionarProduto(id){
